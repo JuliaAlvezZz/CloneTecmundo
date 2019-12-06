@@ -15,7 +15,7 @@
 
 
 .grid-template-columns-3{
-	grid-template-columns: 1fr 7fr 1fr;
+	grid-template-columns: 1fr 6fr 1fr;
 }
 
 .grid-template-columns-2{
@@ -60,6 +60,38 @@ header div#cabecalho div svg{
 	color: #1087ff;
 }
 
+header div#cabecalho div div#bolinha{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	background-color: #00893c;
+	border-radius: 100%;
+	width: 8px;
+	height: 8px;
+}
+
+header div#cabecalho div div#black{
+	display: inline;
+}
+
+header div#cabecalho div div#black h5{
+	margin: 0;
+	margin-top: 2px;
+	padding: 0;
+	display: inline-block;
+	font-size: 16px;
+	color: #575757;
+}
+
+header div#cabecalho div div#black pre{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	color: #8995a0;
+	font-size: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 header div#cabecalho div div#barra{
 	width: 580px;
 	border-width: 1px;
@@ -82,23 +114,29 @@ header div#cabecalho div div#barra p{
 	display: inline-block;
 }
 
-header div#cabecalho nav#menuNav div{
-	height: 40px;
+header nav#menuNav div{
+	height: 22px;
 	font-weight: bold;
 	color: #3e4851;
 	padding-top: 5px;
 }
 
-header div#cabecalho nav#menuNav div img{
-	display: block;
+header nav#menuNav div img{
+	display: inline-block;
 }
 
 hr{
 	border-color: rgba(255, 255, 255, 0.2);
 }
 
+section{
+	display: inline-block;
+	float: left;
+}
+
 section div#noticias{
 	padding: 22px 62px 0px;
+
 }
 
 section div#numeros{
@@ -110,7 +148,7 @@ section div#numeros div.linha{
 	border-top-width: 1px;
 	border-style: inset;
 	border-color: rgba(255, 255, 255, 0.2);
-	width: calc((100% - 262px));
+	width: calc((100% - 250px));
 	height: 1px;
 	display: inline-block;
 }
@@ -179,6 +217,109 @@ section div#noticias div#noticiaMenor div.titulos div h1{
 	font-size: 20px;
 }
 
+section div#maisLidas{
+	height: 500px;
+	margin: 0px 0px 20px 62px;
+	width: 830px;
+	padding: 0;
+	display: inline-block;
+	float: left;
+}
+
+section div#maisLidas h3{
+	font-size: 24px;
+	margin: 0;
+	margin-top: 22px;
+	display: inline-block;
+}
+
+section div#maisLidas div#datas{
+	display: inline-block;
+	width: 698px;
+	text-align: right;
+}
+
+section div#maisLidas div#datas div.data{
+	display: inline-block;
+	padding: 5px 15px;
+	margin: 0px 2px 0px 12px;
+	color: #8995a0;
+	font-weight: bold;
+}
+
+section div#maisLidas div#datas div.data.active{
+	color: #3e4851;
+	background-color: #f1f5f8;
+	border-radius: 4px;
+}
+
+section div#maisLidas div#listaNoticias ul{
+	list-style: none;
+	margin: 0;
+	margin-top: 14px;
+	padding: 0;
+}
+
+section div#maisLidas div#listaNoticias ul li{
+	display: inline-block;
+	float: left;
+	width: 413px;
+}
+
+section div#maisLidas div#listaNoticias ul li img{
+	border-radius: 8px;
+}
+
+section div#maisLidas div#listaNoticias ul li div{
+	display: inline-block;
+	width: 200px;
+	height: 128px;
+	margin: 14px 0px 0px 20px;
+}
+
+section div#maisLidas div#listaNoticias ul li div h4{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 18px;
+	color: #575757;
+}
+
+section div#maisLidas div#listaNoticias ul li div h5{
+	display: inline-block;
+	margin: 0;
+	margin-top: 4px;
+	padding: 0;
+	color: #8995a0;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+section div#especiais{
+	float: left;
+	display: inline-block;
+	width: 200px;
+}
+
+section div#especiais h3{
+	font-size: 24px;
+	margin: 0;
+	margin-top: 22px;
+	display: inline-block;
+}
+
+section div#especiais div.especial{
+	list-style: none;
+	margin: 0;
+	margin-top: 14px;
+	padding: 0;
+}
+
+section div#especiais div.especial img{
+	border-radius: 8px;
+}
+
 footer{
 	margin-top: 20px;
 	border-width: 0;
@@ -186,6 +327,8 @@ footer{
 	border-style: inset;
 	border-color: rgba(255, 255, 255, 0.2);
 	background-color: #f6f8fa;
+	float: left;
+	display: inline-block;
 }
 
 footer div#categorias{
