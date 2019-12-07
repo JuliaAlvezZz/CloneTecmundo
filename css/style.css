@@ -297,27 +297,62 @@ section div#maisLidas div#listaNoticias ul li div h5{
 }
 
 section div#especiais{
-	float: left;
 	display: inline-block;
-	width: 200px;
+	width: 358px;
 }
 
 section div#especiais h3{
 	font-size: 24px;
 	margin: 0;
 	margin-top: 22px;
-	display: inline-block;
+	display: block;
 }
 
 section div#especiais div.especial{
 	list-style: none;
-	margin: 0;
-	margin-top: 14px;
+	margin: 18px 0px 8px;
 	padding: 0;
+	display: inline-block;
+	width: 358px;
 }
 
 section div#especiais div.especial img{
 	border-radius: 8px;
+	margin-top: 10px;
+}
+
+section div#especiais div.especial div{
+	margin: 0;
+	padding: 0;
+	width: 204px;
+	display: inline-block;
+	float: right;
+}
+
+section div#especiais div.especial div h6{
+	color: #e2ac55;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+section div#especiais div.especial div h4{
+	color: #575757;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+section div#especiais div.especial div h5{
+	color: #8995a0;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+section div#especiais hr{
+	margin: 0;
 }
 
 footer{
