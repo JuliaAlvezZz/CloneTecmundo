@@ -30,7 +30,7 @@
 				</div>
 
 				<div>
-					<div id="barra">
+					<div class="container-flex" id="barra">
 						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30" style=" fill:#575757;">
 							<path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"></path>
 						</svg>
@@ -38,7 +38,7 @@
 					</div>
 				</div>
 
-				<div style="text-align: left;">
+				<div class="container-flex" style="text-align: left;">
 					<div id="bolinha"></div>
 					<div id="black">
 						<h5>Black Friday 2019</h5>
@@ -135,7 +135,7 @@
 				</div>
 			</div>
 
-			<div id="numeros">
+			<div class="grid grid-template-columns-7" id="numeros">
 				<div class="linha"></div>
 
 				<div class="circulo active">
@@ -152,11 +152,25 @@
 			</div>
 		</section>
 
-		<section>
-			<div id="maisLidas">
-				<h3>Mais Lidas</h3>
+		<section class="grid grid-template-columns-2">
+			<div class="grid" id="maisLidas">
+				<div class="container-flex" id="datas">
+					<div class="titulo">
+						Mais Lidas
+					</div>
 
-				<div id="datas">
+					<div class="grow">
+						
+					</div>
+
+					<div class="grow">
+						
+					</div>
+
+					<div class="grow">
+						
+					</div>
+
 					<div class="data active">
 						Hoje
 					</div>
@@ -170,63 +184,61 @@
 					</div>
 				</div>
 
-				<div id="listaNoticias">
-					<ul>
-						<li>
-							<img align="top" src="img/lista1.jpg" />
-							<div>
-								<h4>Motorola Razr 2 pode ressucitar o sistema Moto Mods</h4>
-								<h5>há 2 dias</h5>
-							</div>
-						</li>
+				<div class="grid grid-template-columns-6" id="listaNoticias">
+					<div class="grid grid-template-columns-8">
+						<img align="top" src="img/lista1.jpg" />
+						<div>
+							<h4>Motorola Razr 2 pode ressucitar o sistema Moto Mods</h4>
+							<h5>há 2 dias</h5>
+						</div>
+					</div>
 
-						<li>
-							<img align="top" src="img/lista2.jpg" />
-							<div>
-								<h4>Poucas semanas antes do fim, Windows 7 ainda roda em 26% dos PCs</h4>
-								<h5>ontem</h5>
-							</div>
-						</li>
+					<div class="grid grid-template-columns-8">
+						<img align="top" src="img/lista2.jpg" />
+						<div>
+							<h4>Poucas semanas antes do fim, Windows 7 ainda roda em 26% dos PCs</h4>
+							<h5>ontem</h5>
+						</div>
+					</div>
 
-						<li>
-							<img align="top" src="img/lista3.jpg" />
-							<div>
-								<h4>Apple: 5 novos iPhones em 2020 e 1 modelo 'totalmente sem plugues' em 2021</h4>
-								<h5>há 20 horas </h5>
-							</div>
-						</li>
+					<div class="grid grid-template-columns-8">
+						<img align="top" src="img/lista3.jpg" />
+						<div>
+							<h4>Apple: 5 novos iPhones em 2020 e 1 modelo 'totalmente sem plugues' em 2021</h4>
+							<h5>há 20 horas </h5>
+						</div>
+					</div>
 
-						<li>
-							<img align="top" src="img/lista4.jpg" />
-							<div>
-								<h4>YouTube lança Rwind 2019 mais simples e com vários brasileiros</h4>
-								<h5>há 3 horas</h5>
-							</div>
-						</li>
+					<div class="grid grid-template-columns-8">
+						<img align="top" src="img/lista4.jpg" />
+						<div>
+							<h4>YouTube lança Rwind 2019 mais simples e com vários brasileiros</h4>
+							<h5>há 3 horas</h5>
+						</div>
+					</div>
 
-						<li>
-							<img align="top" src="img/lista5.jpg" />
-							<div>
-								<h4>YouTube revela os vídeos mais vistos de 2019 no Brasil e no mundo</h4>
-								<h5>há 17 horas</h5>
-							</div>
-						</li>
+					<div class="grid grid-template-columns-8">
+						<img align="top" src="img/lista5.jpg" />
+						<div>
+							<h4>YouTube revela os vídeos mais vistos de 2019 no Brasil e no mundo</h4>
+							<h5>há 17 horas</h5>
+						</div>
+					</div>
 
-						<li>
-							<img align="top" src="img/lista6.jpg" />
-							<div>
-								<h4>Tema escuro do WhatsApp poderá ser ativado de forma automática</h4>
-								<h5>há 2 dias</h5>
-							</div>
-						</li>
-					</ul>
+					<div class="grid grid-template-columns-8">
+						<img align="top" src="img/lista6.jpg" />
+						<div>
+							<h4>Tema escuro do WhatsApp poderá ser ativado de forma automática</h4>
+							<h5>há 2 dias</h5>
+						</div>
+					</div>
 				</div>
 			</div>
 
 			<div id="especiais">
 				<h3>Matérias Especiais</h3>
 
-				<div class="especial">
+				<div class="especial grid grid-template-columns-6">
 					<img src="img/especial1.jpg" />
 					<div>
 						<h6>PUB</h6>
@@ -237,7 +249,7 @@
 
 				<hr/>
 
-				<div class="especial">
+				<div class="especial grid grid-template-columns-6">
 					<img src="img/especial2.jpg" />
 					<div>
 						<h6>PUB</h6>
@@ -255,7 +267,7 @@
 				<ul class="grid grid-template-columns-4" id="listaMaior">
 					<li class="liMaior">
 						<h4>Categorias</h4>
-						<ul class="listaMenor">
+						<ul class="listaMenor grid grid-template-columns-9 grid-template-rows">
 							<li>Software</li>
 							<li>Ciência</li>
 							<li>Windows 10</li>
@@ -313,19 +325,30 @@
 						</svg>
 					</div>
 
-					<div>
-						<ul>
-							<li>Sobre</li>
-							<li>Contato</li>
-							<li>Jobs</li>
-							<li>Política de Privacidade</li>
-							<li>Licenciamento de Conteúdo</li>
-						</ul>
+					<div class="container-flex">
+						<div>
+							Sobre
+						</div>
+
+						<div>
+							Contato
+						</div>
+
+						<div>
+							Jobs
+						</div>
+
+						<div>
+							Política de Privacidade
+						</div>
+
+						<div>
+							Licenciamento de Conteúdo
+						</div>
 					</div>
 
 					<div style="text-align: right;">
 						<h5>© Copyright 2019 - No Zebra Network S.A.</h5>
-						<br/>
 						<p>Todos os direitos reservados.</p>
 					</div>
 				</div>
